@@ -1,0 +1,36 @@
+.corpo{
+    padding: 2.2%;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.link{
+    float: right;
+    margin-top: 1%;
+}
+
+p{
+    text-align: left;
+}
+
+h1{
+    text-align: left;
+    margin-left: 2%;
+}
+
+h4{
+    text-align: center;
+}
+
+#capa{
+    justify-content: center;
+    align-items: center;
+    position: static;  
+    margin-left: 15%;
+}
+
+
+ol{
+    margin-left: 10%;
+}
+

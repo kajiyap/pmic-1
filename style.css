@@ -23,10 +23,9 @@ h4{
 }
 
 #capa{
-    justify-content: center;
-    align-items: center;
-    position: static;  
-    margin-left: 15%;
+    position: relative;  
+    margin-left: 12%;
+    margin-top: 1.1%;
 }
 
 

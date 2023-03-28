@@ -2,11 +2,13 @@
     padding: 2.2%;
     margin: 0 auto;
     max-width: 80%;
+    display: flex;
 }
 
 .link{
     float: right;
     margin-top: 1%;
+    display: flex;
 }
 
 p{
@@ -26,6 +28,7 @@ h4{
     position: relative;  
     margin-left: 12%;
     margin-top: 1.1%;
+    display: flex;
 }
 
 

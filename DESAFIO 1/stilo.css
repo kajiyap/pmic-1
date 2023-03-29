@@ -1,19 +1,14 @@
 .corpo{
-    padding: 2.2%;
-    margin: 0 auto;
-    max-width: 80%;
     background: url(imagens\ desaf/fundo2.png);
 }
 
 .corpo-home{
-    padding: 2.2%;
-    margin: 0 auto;
-    max-width: 80%;
-    background: url(imagens\ desaf/fundo.png);
+    background: url(imagens\ desaf/fundo2.png);
 }
+
 .link{
     float: right;
-    margin-top: 1%;
+    margin-top: 3%;
     
 }
 
@@ -30,14 +25,14 @@ h4{
 }
 
 #capa{
-    position: relative;
-    align-items: center;
-    margin-left: 12%;
-    margin-top: 1.1%;
-    
+    text-align: center;
+    background-color: whitesmoke;
+    background-size: 100%;
 }
 
-
+#logo{
+    margin-top: 1%;
+}
 ol{
     margin-left: 10%;
 }

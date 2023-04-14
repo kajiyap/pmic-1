@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BASE</title>
+    {% block header %}
+
+    {% endblock %}
     <link rel="stylesheet" href="./static/normalize.css">
     <link rel="stylesheet" href="./static/stilo.css">
 </head>
 <body class="corpo">
     <!-- Cabeçalho -->
-    <div>
+    <div >
         
         <img src="./static/imagens desaf/logo.png" alt="Logo" id="logo">
         <div class="link">
@@ -23,9 +25,9 @@
         
     </div>
     <hr>
-    {%block content%}
+        {% block content %}
 
-    {%block end%}
+        {% endblock %}
     <!-- Rodapé -->
 
     <div>

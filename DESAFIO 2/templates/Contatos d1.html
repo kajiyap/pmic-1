@@ -1,14 +1,23 @@
-{%extends "base.html"%}
-{%block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+    {% block header %}
+        <title>contatos</title>
+    {% endblock %}
+       
+</head>
 
-<!-- Corpo  -->
+<body>
+    {% block content %}
+    <!-- Corpo  -->
     <div>
         <h1>Entre em contato</h1><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. </p>
     </div>
 
-<hr>
-<!-- Formulário -->
+    <hr>
+    <!-- Formulário -->
     <div>
     <form>
             E-mail:<br>
@@ -21,4 +30,7 @@
         </form>
     </div>
 
-{%endblock content%}
+    {% endblock %}
+</body>    
+
+</html>

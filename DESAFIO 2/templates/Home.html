@@ -1,6 +1,15 @@
-{%extends "base.html"%}
-{%block content%}
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    {% extends "base.html" %}
+    {% block header %}
+    <title>home</title>
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+    
     <!-- Corpo IMG -->
     <div id="capa">
         <img src="./static/imagens desaf/capa.png" alt="Capa" >
@@ -13,4 +22,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel ac sapien. Proin placerat cursus risus. Duis blandit varius hendrerit. Vivamus sed placerat turpis, vel viverra neque. Duis at tempor magna, sit amet gravida purus. Nulla facilisi. Vivamus accumsan risus vitae risus blandit venenatis. Sed sed nisl tempor, tincidunt elit sit amet, facilisis neque. Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lects sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum cursus elit, vitae placerat lectus laoreet a. </p>
     </div>
 
-{%endblock content%}}
+    {% endblock %}
+</body>
+
+</html>

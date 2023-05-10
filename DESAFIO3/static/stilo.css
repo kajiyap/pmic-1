@@ -1,0 +1,36 @@
+.corpo{
+    background: url(imagens\ desaf/fundo2.png);
+}
+
+
+.link{
+    float: right;
+    margin-top: 3%;
+    
+}
+
+p{
+    text-align: left;
+}
+
+h1{
+    text-align: left;
+}
+
+h4{
+    text-align: center;
+}
+
+#capa{
+    text-align: center;
+    background-color: whitesmoke;
+    background-size: 100%;
+}
+
+#logo{
+    margin-top: 1%;
+}
+ol{
+    margin-left: 10%;
+}
+

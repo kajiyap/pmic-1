@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+    {% block header %}
+        <title>contatos</title>
+    {% endblock %}
+       
+</head>
+
+<body>
+    {% block content %}
+    <!-- Corpo  -->
+    <div>
+        <h1>Entre em contato</h1><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. </p>
+    </div>
+
+    <hr>
+    <!-- Formulário -->
+    <div>
+    <form method="post" action="/contatos">
+            E-mail:<br>
+            <input type="email" name="E-mail"><br>
+            Assunto:<br>
+            <input type="text" name="Assunto"><br>
+            Descrição: <br>
+            <input type="text" name="Descrição"><br>
+          <input type="submit">
+        </form>
+    </div>
+
+    {% endblock %}
+</body>    
+
+</html>

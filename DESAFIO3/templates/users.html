@@ -1,3 +1,31 @@
-{% for user in userDetails %}
-<p>{{user}}</p>
-{%endfor%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+    {% block header %}
+        <title>Users</title>
+    {% endblock %}
+       
+</head>
+<body>
+    {% block content %}
+    <div style="padding: 0% 5%;">
+        <table>
+            <tr>
+                <td class="pedaço">Email</td>
+                <td class="pedaço">Assunto</td>
+                <td class="pedaço">Descrição</td>
+            </tr>
+        {% for user in userDetails %}
+            <tr>
+                <td class="pedaço">{{user[0]}}</td>
+                <td class="pedaço">{{user[1]}}</td>
+                <td class="pedaço">{{user[2]}}</td>
+            </tr>
+        {%endfor%}
+        </table>
+    </div>
+    {% endblock %}
+</body>    
+
+</html>

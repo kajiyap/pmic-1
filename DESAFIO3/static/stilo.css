@@ -1,12 +1,23 @@
 .corpo{
     background: url(imagens\ desaf/fundo2.png);
 }
-
-
+table{
+    width: 100%;
+    height: auto;
+}
+tr{
+    margin: 1%;
+    border: 1px solid black;
+}
+td{
+    margin: 1%;
+    border: 1px solid black;
+}
 .link{
     float: right;
-    margin-top: 3%;
-    
+    margin-top: 2.5%;
+    margin-right: 4%;
+    font-style: none;
 }
 
 p{

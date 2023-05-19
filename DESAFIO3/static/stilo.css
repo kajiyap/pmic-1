@@ -5,10 +5,7 @@ table{
     width: 100%;
     height: auto;
 }
-tr{
-    margin: 1%;
-    border: 1px solid black;
-}
+
 td{
     margin: 1%;
     border: 1px solid black;
